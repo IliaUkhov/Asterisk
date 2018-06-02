@@ -1,0 +1,23 @@
+* {
+    -fx-text-base-color: #FF00FF;
+}
+
+Button, ChoiceBox, #dict_text_field {
+    -fx-background-color: #111111;
+    -fx-border-width: 2px;
+    -fx-border-color: #00FFFF;
+}
+
+#stack_pane, #text_view, #dict_v_box {
+    -fx-background-color: #000000;
+    -fx-control-inner-background: #110011;
+}
+
+#text_view, #dict_list {
+    -fx-border-width: 2px;
+    -fx-border-color: #00FF00;
+}
+
+#result {
+    -fx-fill: #00FF00;
+}

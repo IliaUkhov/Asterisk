@@ -1,0 +1,27 @@
+#analyze_button, #dict_button, #select_theme {
+    -fx-pref-width: 1000000;
+}
+
+#v_box, #dict_v_box {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: top_center;
+}
+
+#text_view {
+   -fx-pref-height: 1000000;
+   -fx-pref-width: 1000000;
+}
+
+#result {
+    -fx-font-size: 14pt;
+}
+
+#h_box, #dict_h_box {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+#dict_text_field {
+    -fx-pref-width: 1000000;
+}

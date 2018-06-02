@@ -1,0 +1,21 @@
+Button, ChoiceBox, #dict_text_field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 0;
+}
+
+Button:hover, ChoiceBox:hover {
+    -fx-background-color: #E4EFFF;
+}
+
+Button:pressed, ChoiceBox:pressed {
+    -fx-background-color: #5296FF;
+}
+
+#stack_pane, #text_view, #dict_v_box {
+    -fx-background-color: #C5DCFF;
+    -fx-control-inner-background: #FFFFFF;
+}
+
+#text_view, #dict_list {
+    -fx-border-width: 0;
+}

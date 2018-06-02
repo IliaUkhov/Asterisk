@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?scenebuilder-stylesheet main_stylesheet.css?>
+<?import java.net.URL?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="400.0" prefWidth="600.0"
+      fx:id="dict_v_box">
+    <ListView fx:id="dict_list">
+
+    </ListView>
+    <HBox fx:id="dict_h_box">
+        <TextField fx:id="dict_text_field"/>
+        <Button fx:id="dict_add_button">+</Button>
+        <Button fx:id="dict_rm_button">-</Button>
+    </HBox>
+    <stylesheets>
+        <URL value="@stylesheets/settings/default_settings.css"/>
+    </stylesheets>
+</VBox>
